@@ -31,11 +31,13 @@ var (
 		"Shaggy",
 		"Floral",
 		"Refined",
+		"Fraggly",
 		"Avant Garde",
 		"Sophisticated",
 		"Philanthropic",
 		"Courageous",
 		"Feathery",
+		"Fearless",
 	}
 
 	jobs = []string{
@@ -64,6 +66,11 @@ var (
 		"Bounty Hunter",
 		"Alchemist",
 		"Hermit",
+		"Fraggle",
+		"Zoo Keeper",
+		"Lion Tamer",
+		"Batman",
+		"Trapeeze Artist",
 	}
 )
 

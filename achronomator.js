@@ -19838,8 +19838,8 @@ $packages["github.com/Intermernet/achronomator"] = (function() {
 		$r = time.$init(); /* */ $s = 4; case 4: if($c) { $c = false; $r = $r.$blk(); } if ($r && $r.$blk !== undefined) { break s; }
 		decadeStart = 1200;
 		decadeEnd = 2050;
-		descriptions = new sliceType(["Sparkly", "Stealthy", "Mighty", "Polka Dotted", "Plaid", "Itinerant", "Beaded", "Bejewelled", "Future", "Mystical", "Lurid", "Monochromatic", "Eccentric", "Vibrant", "Disco", "Shaggy", "Floral", "Refined", "Avant Garde", "Sophisticated", "Philanthropic", "Courageous", "Feathery"]);
-		jobs = new sliceType(["Pirate", "Cosmonaut", "Salsa Dancer", "Zeppelin Pilot", "Surgeon", "Explorer", "Flapper", "Detective", "Snake Wrangler", "Sailor", "Ninja", "Plumber", "Pool Cleaner", "Musician", "Smuggler", "Admiral", "Fencer", "Dancer", "Super Hero", "Scuba Diver", "Rockstar", "Scientist", "Bounty Hunter", "Alchemist", "Hermit"]);
+		descriptions = new sliceType(["Sparkly", "Stealthy", "Mighty", "Polka Dotted", "Plaid", "Itinerant", "Beaded", "Bejewelled", "Future", "Mystical", "Lurid", "Monochromatic", "Eccentric", "Vibrant", "Disco", "Shaggy", "Floral", "Refined", "Fraggly", "Avant Garde", "Sophisticated", "Philanthropic", "Courageous", "Feathery", "Fearless"]);
+		jobs = new sliceType(["Pirate", "Cosmonaut", "Salsa Dancer", "Zeppelin Pilot", "Surgeon", "Explorer", "Flapper", "Detective", "Snake Wrangler", "Sailor", "Ninja", "Plumber", "Pool Cleaner", "Musician", "Smuggler", "Admiral", "Fencer", "Dancer", "Super Hero", "Scuba Diver", "Rockstar", "Scientist", "Bounty Hunter", "Alchemist", "Hermit", "Fraggle", "Zoo Keeper", "Lion Tamer", "Batman", "Trapeeze Artist"]);
 		/* */ if ($pkg === $mainPkg) { $s = 5; continue; }
 		/* */ $s = 6; continue;
 		/* if ($pkg === $mainPkg) { */ case 5:
