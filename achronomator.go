@@ -16,7 +16,7 @@ var (
 		"Sparkly",
 		"Stealthy",
 		"Mighty",
-		"Polka Dotted",
+		"Polkadotted",
 		"Plaid",
 		"Itinerant",
 		"Beaded",
@@ -38,6 +38,10 @@ var (
 		"Courageous",
 		"Feathery",
 		"Fearless",
+		"Robotic",
+		"Metallic",
+		"Hypercolour",
+		"Cheesy",
 	}
 
 	jobs = []string{
@@ -59,7 +63,7 @@ var (
 		"Admiral",
 		"Fencer",
 		"Dancer",
-		"Super Hero",
+		"Superhero",
 		"Scuba Diver",
 		"Rockstar",
 		"Scientist",
@@ -71,6 +75,7 @@ var (
 		"Lion Tamer",
 		"Batman",
 		"Trapeeze Artist",
+		"Raver",
 	}
 )
 
