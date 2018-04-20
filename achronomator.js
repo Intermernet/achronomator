@@ -19792,7 +19792,7 @@ $packages["math/rand"] = (function() {
 	return $pkg;
 })();
 $packages["github.com/Intermernet/achronomator"] = (function() {
-	var $pkg = {}, $init, fmt, js, rand, time, sliceType, sliceType$1, sliceType$2, decadeStart, decadeEnd, descriptions, jobs, main, acronomate;
+	var $pkg = {}, $init, fmt, js, rand, time, sliceType, sliceType$1, sliceType$2, decadeStart, decadeEnd, descriptions, jobs, main, achronomate;
 	fmt = $packages["fmt"];
 	js = $packages["github.com/gopherjs/gopherjs/js"];
 	rand = $packages["math/rand"];
@@ -19803,12 +19803,12 @@ $packages["github.com/Intermernet/achronomator"] = (function() {
 	main = function() {
 		var _r, $s, $r;
 		/* */ $s = 0; var $f, $c = false; if (this !== undefined && this.$blk !== undefined) { $f = this; $c = true; _r = $f._r; $s = $f.$s; $r = $f.$r; } s: while (true) { switch ($s) { case 0:
-		_r = acronomate(); /* */ $s = 1; case 1: if($c) { $c = false; _r = _r.$blk(); } if (_r && _r.$blk !== undefined) { break s; }
+		_r = achronomate(); /* */ $s = 1; case 1: if($c) { $c = false; _r = _r.$blk(); } if (_r && _r.$blk !== undefined) { break s; }
 		$global.document.write($externalize(_r, $String));
 		$s = -1; return;
 		/* */ } return; } if ($f === undefined) { $f = { $blk: main }; } $f._r = _r; $f.$s = $s; $f.$r = $r; return $f;
 	};
-	acronomate = function() {
+	achronomate = function() {
 		var _r, _r$1, _r$2, _r$3, decade, decades, description, era, job, x, x$1, x$2, $s, $r;
 		/* */ $s = 0; var $f, $c = false; if (this !== undefined && this.$blk !== undefined) { $f = this; $c = true; _r = $f._r; _r$1 = $f._r$1; _r$2 = $f._r$2; _r$3 = $f._r$3; decade = $f.decade; decades = $f.decades; description = $f.description; era = $f.era; job = $f.job; x = $f.x; x$1 = $f.x$1; x$2 = $f.x$2; $s = $f.$s; $r = $f.$r; } s: while (true) { switch ($s) { case 0:
 		$r = rand.Seed($clone(time.Now(), time.Time).UnixNano()); /* */ $s = 1; case 1: if($c) { $c = false; $r = $r.$blk(); } if ($r && $r.$blk !== undefined) { break s; }
@@ -19827,7 +19827,7 @@ $packages["github.com/Intermernet/achronomator"] = (function() {
 		job = (x$2 = _r$2, ((x$2 < 0 || x$2 >= jobs.$length) ? ($throwRuntimeError("index out of range"), undefined) : jobs.$array[jobs.$offset + x$2]));
 		_r$3 = fmt.Sprintf("%d's %s %s\n", new sliceType$2([new $Int(era), new $String(description), new $String(job)])); /* */ $s = 5; case 5: if($c) { $c = false; _r$3 = _r$3.$blk(); } if (_r$3 && _r$3.$blk !== undefined) { break s; }
 		$s = -1; return _r$3;
-		/* */ } return; } if ($f === undefined) { $f = { $blk: acronomate }; } $f._r = _r; $f._r$1 = _r$1; $f._r$2 = _r$2; $f._r$3 = _r$3; $f.decade = decade; $f.decades = decades; $f.description = description; $f.era = era; $f.job = job; $f.x = x; $f.x$1 = x$1; $f.x$2 = x$2; $f.$s = $s; $f.$r = $r; return $f;
+		/* */ } return; } if ($f === undefined) { $f = { $blk: achronomate }; } $f._r = _r; $f._r$1 = _r$1; $f._r$2 = _r$2; $f._r$3 = _r$3; $f.decade = decade; $f.decades = decades; $f.description = description; $f.era = era; $f.job = job; $f.x = x; $f.x$1 = x$1; $f.x$2 = x$2; $f.$s = $s; $f.$r = $r; return $f;
 	};
 	$init = function() {
 		$pkg.$init = function() {};

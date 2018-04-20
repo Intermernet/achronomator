@@ -80,11 +80,11 @@ var (
 )
 
 func main() {
-	//fmt.Printf(acronomate())
-	js.Global.Get("document").Call("write", acronomate())
+	//fmt.Printf(achronomate())
+	js.Global.Get("document").Call("write", achronomate())
 }
 
-func acronomate() string {
+func achronomate() string {
 	rand.Seed(time.Now().UnixNano())
 	decades := make([]int, 0)
 	for decade := decadeStart; decade <= decadeEnd; decade += 10 {
